@@ -33,13 +33,8 @@ namespace WorkWithMoney
             }
         }
 
-        public static Money InputMoney(int hryvnias, int kopeck)
+        public static Money Create(int hryvnias, int kopeck)
         {
-            if (hryvnias < 0 || kopeck < 0 || kopeck >= 100)
-            {
-                throw new ArgumentOutOfRangeException("Values are out of range");
-            }
-
             return new Money(hryvnias, kopeck);
         }
 
