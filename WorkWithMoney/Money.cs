@@ -33,7 +33,7 @@ namespace WorkWithMoney
             }
         }
 
-        public static Money Create(int hryvnias, int kopeck)
+        public Money Create(int hryvnias, int kopeck)
         {
             return new Money(hryvnias, kopeck);
         }
