@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VectorDemo
+namespace WorkWithMoney
 {
     class WorkWithMoney
     {
