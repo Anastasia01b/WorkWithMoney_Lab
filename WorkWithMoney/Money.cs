@@ -57,7 +57,7 @@ namespace WorkWithMoney
 
 
 
-        public decimal AmountInKopeck()
+        public int AmountInKopeck()
         {
             return (int)this.hryvnias * 100 + this.Kopeck;
         }
